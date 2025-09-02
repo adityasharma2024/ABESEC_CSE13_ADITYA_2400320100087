@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Sharma - Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 5px 0;
+    }
+
+    .section {
+      padding: 25px 40px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      color: #0077b6;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      border-left: 5px solid #00b4d8;
+      padding-left: 10px;
+    }
+
+    .info p {
+      margin: 6px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    table th {
+      background: #00b4d8;
+      color: #fff;
+    }
+
+    table tr:nth-child(even) {
+      background: #f2f8fc;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e0f7fa;
+      color: #0077b6;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Aditya Sharma</h1>
+      <p>B.Tech CSE Student | Aspiring Software Engineer</p>
+      <p>Email: csresearchers1234@gmail.com | Mobile: +91-9599228963</p>
+      <p>GitHub: <a href="https://github.com/adityasharma2024" style="color: #fff; text-decoration: underline;">adityasharma2024</a></p>
+    </header>
+
+    <div class="section info">
+      <h2>Personal Information</h2>
+      <p><strong>Father's Name:</strong> Sanjeev Kumar Sharma</p>
+      <p><strong>Date of Birth:</strong> 01/04/2006</p>
+    </div>
+
+    <div class="section">
+      <h2>Academic Qualifications</h2>
+      <table>
+        <tr>
+          <th>Class</th>
+          <th>Branch</th>
+          <th>Marks (%)</th>
+          <th>Division</th>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>CBSE</td>
+          <td>85.2</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>CBSE</td>
+          <td>87.2</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <td>B.Tech 1st Year</td>
+          <td>CSE</td>
+          <td>85.6</td>
+          <td>1st</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>C++</span>
+        <span>Problem Solving</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <p><strong>Health Data Management System (HDMS):</strong> A web app for secure health record storage and management.</p>
+      <p><strong>AI Resource Optimization:</strong> Predictive analytics platform for hospital resource management.</p>
+    </div>
+  </div>
+</body>
+</html>
