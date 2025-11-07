@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, i, key, flag = 0;
     printf("Enter number of elements: ");
